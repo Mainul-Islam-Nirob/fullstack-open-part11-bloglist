@@ -1,0 +1,21 @@
+.loginForm{
+  align-self: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginBtn {
+  background: #16d3d8;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.loginBtn:hover {
+  background: #13b7bb;
+}
