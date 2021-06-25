@@ -1,7 +1,6 @@
 {
   "name": "bloglist-frontend",
   "version": "0.1.0",
-  "main": "./build/index.js",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -63,7 +62,10 @@
       "@babel/preset-react"
     ],
     "plugins": [
-      "@babel/plugin-syntax-jsx"
+      "@babel/plugin-syntax-jsx",
+        {
+          "loose": true
+        }
     ]
   }
 }
