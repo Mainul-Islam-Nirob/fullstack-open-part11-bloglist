@@ -13,6 +13,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:cypress/recommended'
   ],
+  'parser': 'babel-eslint',
   'parserOptions': {
     'ecmaFeatures': {
       'jsx': true
